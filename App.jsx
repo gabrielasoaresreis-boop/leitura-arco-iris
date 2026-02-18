@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop';
-import LandingPage from './pages/LandingPage';
-import Checkout from './pages/Checkout';
-import ThankYou from './pages/ThankYou';
+import ScrollToTop from './ScrollToTop';
+import LandingPage from './LandingPage';
+import Checkout from './Checkout';
+import ThankYou from './ThankYou';
+
 
 function App() {
   return (
