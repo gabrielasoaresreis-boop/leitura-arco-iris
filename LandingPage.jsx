@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { ChevronDown, Check, ArrowRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useLocalStorage } from '@/hooks/use-local-storage';
-import EditableText from '@/components/EditableText';
-import AdminPanel from '@/components/AdminPanel';
-import { useToast } from '@/components/ui/use-toast';
+import useLocalStorage from "./use-local-storage";
+import EditableText from "./EditableText";
+import AdminPanel from "./AdminPanel";
+import { useToast } from "./use-toast";
 const LandingPage = () => {
   const [openFaq, setOpenFaq] = useState(null);
   const finalCtaRef = useRef(null);
