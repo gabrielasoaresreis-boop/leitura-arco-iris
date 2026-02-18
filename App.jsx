@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
-import LandingPage from './LandingPage';
-import Checkout from './Checkout';
-import ThankYou from './ThankYou';
+import ScrollToTop from './ScrollToTop.jsx';
+import LandingPage from './LandingPage.jsx';
+import Checkout from './Checkout.jsx';
+import ThankYou from './ThankYou.jsx';
 
 
 function App() {
