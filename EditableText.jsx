@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from './utils';
 import { Pencil } from 'lucide-react';
 
 const EditableText = ({ 
