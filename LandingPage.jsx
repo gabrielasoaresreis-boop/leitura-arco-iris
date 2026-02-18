@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { ChevronDown, Check, ArrowRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import useLocalStorage from "./use-local-storage.js";
+import useLocalStorage from "./use-local-storage.";
 import EditableText from "./EditableText";
 import AdminPanel from "./AdminPanel";
 import { useToast } from "./use-toast";
